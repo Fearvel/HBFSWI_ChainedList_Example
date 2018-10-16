@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(ChainedList)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(ChainedList main.cpp ChainedList/ChainedListItem/ChainedListItem.h ChainedList/ChainedListController.cpp ChainedList/ChainedListController.h ChainedList/Exceptions/ObjectExistsException.h ChainedList/ChainedListDialog.cpp ChainedList/ChainedListDialog.h ChainedList/Exceptions/InvalidInputException.h ChainedList/Exceptions/ObjectNotExistingException.h ChainedList/Exceptions/ChainedListExceptions.h ChainedList/OutputLine.h ChainedList/OutputLineManager.h)
